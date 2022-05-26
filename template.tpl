@@ -1,20 +1,12 @@
-﻿___TERMS_OF_SERVICE___
-
-By creating or modifying this file you agree to Google Tag Manager's Community
-Template Gallery Developer Terms of Service available at
-https://developers.google.com/tag-manager/gallery-tos (or such other URL as
-Google may provide), as modified from time to time.
-
-
-___INFO___
+﻿___INFO___
 
 {
   "type": "TAG",
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "Quin.ai"
-  "categories": ["ANALYTICS", "ADVERTISING", "LEAD_GENERATION"],
+  "displayName": "Quin.ai",
+  "categories": ["ANALYTICS"],
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
@@ -123,129 +115,13 @@ ___TEMPLATE_PARAMETERS___
       },
       {
         "value": "filter",
-        "displayValue": "Filter"
-      },
+        "displayValue": "filter"
+      }
     ],
     "enablingConditions": [
       {
         "paramName": "ClickCategory",
         "paramValue": "listing",
-        "type": "EQUALS"
-      }
-    ],
-    "simpleValueType": true
-  },
-  {
-    "type": "SELECT",
-    "name": "DetailClickLabel",
-    "displayName": "Label",
-    "macrosInSelect": false,
-    "selectItems": [
-      {
-        "value": "addtobasket",
-        "displayValue": "Add to basket"
-      },
-      {
-        "value": "addtofavourites",
-        "displayValue": "Add to favourites"
-      },
-      {
-        "value": "productinfo",
-        "displayValue": "Product info"
-      },
-      {
-        "value": "deliveryinfo",
-        "displayValue": "Delivery info"
-      },
-      {
-        "value": "comments",
-        "displayValue": "Comments"
-      },
-      {
-        "value": "quantity",
-        "displayValue": "Quantity"
-      },
-    ],
-    "enablingConditions": [
-      {
-        "paramName": "ClickCategory",
-        "paramValue": "detail",
-        "type": "EQUALS"
-      }
-    ],
-    "simpleValueType": true
-  },
-  {
-    "type": "SELECT",
-    "name": "CartClickLabel",
-    "displayName": "Label",
-    "macrosInSelect": false,
-    "selectItems": [
-      {
-        "value": "quantity",
-        "displayValue": "Quantity"
-      },
-      {
-        "value": "continueshopping",
-        "displayValue": "Continue Shopping"
-      },
-      {
-        "value": "removefromcart",
-        "displayValue": "Remove From Cart"
-      },
-      {
-        "value": "emptycart",
-        "displayValue": "Empty Cart"
-      },
-      {
-        "value": "checkout",
-        "displayValue": "Checkout"
-      }
-    ],
-    "enablingConditions": [
-      {
-        "paramName": "ClickCategory",
-        "paramValue": "cart",
-        "type": "EQUALS"
-      }
-    ],
-    "simpleValueType": true
-  },
-  {
-    "type": "SELECT",
-    "name": "CheckoutClickLabel",
-    "displayName": "Label",
-    "macrosInSelect": false,
-    "selectItems": [
-      {
-        "value": "login",
-        "displayValue": "Login"
-      },
-      {
-        "value": "discountcode",
-        "displayValue": "Discount Code"
-      },
-      {
-        "value": "Delivery Fee",
-        "displayValue": "deliveryfee"
-      },
-      {
-        "value": "address",
-        "displayValue": "Address"
-      },
-      {
-        "value": "paymenttype",
-        "displayValue": "Payment Type"
-      },
-      {
-        "value": "purchasecompleted",
-        "displayValue": "Purchase Completed"
-      }
-    ],
-    "enablingConditions": [
-      {
-        "paramName": "ClickCategory",
-        "paramValue": "checkout",
         "type": "EQUALS"
       }
     ],
@@ -262,8 +138,7 @@ ___TEMPLATE_PARAMETERS___
         "paramValue": "pageView",
         "type": "EQUALS"
       }
-    ],
-    "help": "It should be breadcrumb"
+    ]
   },
   {
     "type": "TEXT",
@@ -278,44 +153,9 @@ ___TEMPLATE_PARAMETERS___
       },
       {
         "paramName": "ListingClickLabel",
-        "paramValue": "addtobasket",
+        "paramValue": "listing",
         "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "addtobasket",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "addtofavourites",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "productinfo",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "deliveryinfo",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "quantity",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "CartClickLabel",
-        "paramValue": "quantity",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "CartClickLabel",
-        "paramValue": "removefromcart",
-        "type": "EQUALS"
-      },
+      }
     ]
   },
   {
@@ -331,44 +171,9 @@ ___TEMPLATE_PARAMETERS___
       },
       {
         "paramName": "ListingClickLabel",
-        "paramValue": "addtobasket",
+        "paramValue": "listing",
         "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "addtobasket",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "addtofavourites",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "productinfo",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "deliveryinfo",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "quantity",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "CartClickLabel",
-        "paramValue": "quantity",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "CartClickLabel",
-        "paramValue": "removefromcart",
-        "type": "EQUALS"
-      },
+      }
     ]
   },
   {
@@ -384,44 +189,9 @@ ___TEMPLATE_PARAMETERS___
       },
       {
         "paramName": "ListingClickLabel",
-        "paramValue": "addtobasket",
+        "paramValue": "listing",
         "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "addtobasket",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "addtofavourites",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "productinfo",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "deliveryinfo",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "quantity",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "CartClickLabel",
-        "paramValue": "quantity",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "CartClickLabel",
-        "paramValue": "removefromcart",
-        "type": "EQUALS"
-      },
+      }
     ]
   },
   {
@@ -437,44 +207,9 @@ ___TEMPLATE_PARAMETERS___
       },
       {
         "paramName": "ListingClickLabel",
-        "paramValue": "addtobasket",
+        "paramValue": "listing",
         "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "addtobasket",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "addtofavourites",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "productinfo",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "deliveryinfo",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "quantity",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "CartClickLabel",
-        "paramValue": "quantity",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "CartClickLabel",
-        "paramValue": "removefromcart",
-        "type": "EQUALS"
-      },
+      }
     ]
   },
   {
@@ -490,44 +225,9 @@ ___TEMPLATE_PARAMETERS___
       },
       {
         "paramName": "ListingClickLabel",
-        "paramValue": "addtobasket",
+        "paramValue": "listing",
         "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "addtobasket",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "addtofavourites",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "productinfo",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "deliveryinfo",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "quantity",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "CartClickLabel",
-        "paramValue": "quantity",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "CartClickLabel",
-        "paramValue": "removefromcart",
-        "type": "EQUALS"
-      },
+      }
     ]
   },
   {
@@ -543,84 +243,11 @@ ___TEMPLATE_PARAMETERS___
       },
       {
         "paramName": "ListingClickLabel",
-        "paramValue": "addtobasket",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "addtobasket",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "addtofavourites",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "productinfo",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "deliveryinfo",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "quantity",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "CartClickLabel",
-        "paramValue": "quantity",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "CartClickLabel",
-        "paramValue": "removefromcart",
-        "type": "EQUALS"
-      },
-    ]
-  },
-  {
-    "type": "TEXT",
-    "name": "value",
-    "displayName": "Value",
-    "simpleValueType": true,
-    "enablingConditions": [
-      {
-        "paramName": "ListingClickLabel",
-        "paramValue": "addtobasket",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "addtobasket",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "DetailClickLabel",
-        "paramValue": "quantity",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "CartClickLabel",
-        "paramValue": "quantity",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "CartClickLabel",
-        "paramValue": "removefromcart",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "CheckoutClickLabel",
-        "paramValue": "purchasecompleted",
+        "paramValue": "listing",
         "type": "EQUALS"
       }
     ]
-  },
+  }
 ]
 
 
@@ -647,40 +274,8 @@ if(Event === 'pageView'){
    }
     callInWindow( 'geralt' , 'track', 'pageview', GPVData); // Send event
 }
-if(Event === 'click'){
-    let ClickData = {};
-    ClickData.category = data.ClickCategory;
-    switch(data.ClickCategory) {
-      case 'listing':
-        ClickData.label = data.ListingClickLabel;
-        break;
-      case 'detail':
-        ClickData.label = data.DetailClickLabel;
-        break;
-      case 'cart':
-        ClickData.label = data.CartClickLabel;
-        break;
-      case 'checkout':
-        ClickData.label = data.CheckoutClickLabel;
-        break;
-      default:
-        ClickData.label = '';
-    }
-    if(data.ListingClickLabel === 'addtobasket' || data.DetailClickLabel === 'addtobasket' || data.DetailClickLabel === 'addtofavourites' || data.DetailClickLabel === 'productinfo' || data.DetailClickLabel === 'deliveryinfo' || data.DetailClickLabel === 'quantity'  || data.CartClickLabel === 'quantity' || data.CartClickLabel === 'removefromcart'){
-        ClickData.item = {
-            id: data.ItemId,
-            name: data.ItemName,
-            category: data.ItemCategory,
-            currency: data.ItemCurrency,
-            price: data.ItemPrice,
-            discountPrice: data.ItemDiscountPrice,
-        };
-    }
-    if(data.ListingClickLabel === 'addtobasket' || data.DetailClickLabel === 'addtobasket' || data.DetailClickLabel === 'quantity'  || data.CartClickLabel === 'quantity' || data.CartClickLabel === 'removefromcart' || data.CheckoutClickLabel === 'purchasecompleted'){
-        ClickData.value = data.value;
-    }
-    callInWindow( 'geralt' , 'track', 'click', ClickData); // Send event
-}
+log('data =', data);
+
 
 // Call data.gtmOnSuccess when the tag is finished.
 data.gtmOnSuccess();
