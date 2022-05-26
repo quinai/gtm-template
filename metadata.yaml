@@ -1,5 +1,5 @@
 homepage: "https://www.thequin.ai"
 documentation: "https://www.thequin.ai/documentation"
 versions:
-  - sha: 0243b15e81d160af79f670350ccb679e6ae0c9a1
+  - sha: edcccd3ad2920dde12ef85930402639f4698f0c4
     changeNotes: Initial release.
